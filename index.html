@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sheilissima Moda Fitness | Loja de Moda Fitness em Embu das Artes</title>
+  <meta name="description" content="Moda fitness feminina com conforto e estilo. Retirada na loja e delivery. Embu das Artes - SP. Compre e finalize o pedido pelo WhatsApp." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill">⭐ 5.0 (13 avaliações)</span>
+        <span class="muted">Retirada na loja • Delivery</span>
+      </div>
+      <div class="topbar__right">
+        <a class="link" href="#local">📍 Embu das Artes - SP</a>
+        <a class="link" href="tel:+5511967736005">☎ +55 11 96773-6005</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Ir para o início">
+        <div class="brand__logo brand__logo--img">
+          <img src="assets/logo.png" alt="Sheilissima Moda Fitness" />
+        </div>
+        <div class="brand__text">
+          <strong>Sheilissima</strong>
+          <span>Moda Fitness</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#produtos">Produtos</a>
+        <a href="#como-comprar">Como comprar</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#local">Contato</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-btn" id="openSearch" title="Pesquisar" aria-label="Pesquisar">🔎</button>
+        <button class="icon-btn" id="openCart" title="Carrinho" aria-label="Abrir carrinho">
+          🛒 <span class="badge" id="cartCount">0</span>
+        </button>
+
+        <a class="btn btn--primary" id="whatsTop" target="_blank" rel="noopener">WhatsApp</a>
+
+        <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile" id="mobileMenu" hidden>
+      <div class="container mobile__inner">
+        <a href="#produtos" class="mobile__link">Produtos</a>
+        <a href="#como-comprar" class="mobile__link">Como comprar</a>
+        <a href="#avaliacoes" class="mobile__link">Avaliações</a>
+        <a href="#sobre" class="mobile__link">Sobre</a>
+        <a href="#local" class="mobile__link">Contato</a>
+        <a class="btn btn--primary mobile__cta" id="whatsMobile" target="_blank" rel="noopener">Falar no WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1>Moda fitness que valoriza você.</h1>
+          <p class="lead">
+            Conforto, performance e atitude. Escolha seus produtos e finalize seu pedido
+            <strong>pelo WhatsApp</strong> com <strong>retirada na loja</strong> ou <strong>delivery</strong> em Embu das Artes.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#produtos">Ver produtos</a>
+            <a class="btn btn--ghost" id="instaHero" target="_blank" rel="noopener">Ver Instagram</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust-card">
+              <strong>Pagamento</strong>
+              <span class="muted">No WhatsApp (Pix/Cartão/Dinheiro)</span>
+            </div>
+            <div class="trust-card">
+              <strong>Entrega</strong>
+              <span class="muted">Delivery e retirada</span>
+            </div>
+            <div class="trust-card">
+              <strong>Atendimento</strong>
+              <span class="muted">WhatsApp rápido</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media" aria-label="Imagem principal">
+          <div class="hero__image">
+            <img class="hero-img" src="assets/hero.jpg" alt="Sheilissima Moda Fitness - Moda Fitness" />
+          </div>
+
+          <div class="hero__floating">
+            <div class="floating-card">
+              <strong>Novidades toda semana</strong>
+              <span class="muted">Leggings • Tops • Conjuntos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Destaques</h2>
+          <p class="muted">Peças com caimento incrível, prontas pra te acompanhar no treino e no dia a dia.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <div class="card">
+            <div class="card__icon">✨</div>
+            <h3>Modelagens que valorizam</h3>
+            <p class="muted">Cintura alta, compressão na medida e conforto.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🧵</div>
+            <h3>Qualidade e durabilidade</h3>
+            <p class="muted">Tecidos resistentes e acabamento premium.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🚚</div>
+            <h3>Delivery</h3>
+            <p class="muted">Receba em casa com praticidade.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🏪</div>
+            <h3>Retirada na loja</h3>
+            <p class="muted">Estr. Kizaemon Takeuti, 218.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section section--soft" id="produtos">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <h2>Produtos em destaque</h2>
+            <p class="muted">Selecione tamanho e cor, adicione ao carrinho e finalize pelo WhatsApp.</p>
+          </div>
+
+          <div class="filters">
+            <button class="chip is-active" data-filter="all">Todos</button>
+            <button class="chip" data-filter="leggings">Leggings</button>
+            <button class="chip" data-filter="tops">Tops</button>
+            <button class="chip" data-filter="conjuntos">Conjuntos</button>
+            <button class="chip" data-filter="macacoes">Macacões</button>
+            <button class="chip" data-filter="shorts">Shorts</button>
+            <button class="chip" data-filter="acessorios">Acessórios</button>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <div class="search">
+            <input id="searchInput" type="search" placeholder="Pesquisar produto (ex: legging, top, conjunto)..." />
+          </div>
+          <select id="sortSelect" class="select" aria-label="Ordenar produtos">
+            <option value="featured">Ordenar: Destaques</option>
+            <option value="price-asc">Preço: menor → maior</option>
+            <option value="price-desc">Preço: maior → menor</option>
+            <option value="name-asc">Nome: A → Z</option>
+          </select>
+        </div>
+
+        <div class="products" id="productGrid"></div>
+
+        <div class="note">
+          <strong>Trocas:</strong> aceitamos troca em até <strong>7 dias</strong> com etiqueta e peça sem uso. Fale com a gente no WhatsApp.
+        </div>
+      </div>
+    </section>
+
+    <!-- How to buy -->
+    <section class="section" id="como-comprar">
+      <div class="container">
+        <div class="section__head">
+          <h2>Como comprar</h2>
+          <p class="muted">Rápido e fácil — e você finaliza tudo no WhatsApp.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="step">
+            <div class="step__num">1</div>
+            <h3>Escolha os produtos</h3>
+            <p class="muted">Selecione tamanho, cor e adicione ao carrinho.</p>
+          </div>
+          <div class="step">
+            <div class="step__num">2</div>
+            <h3>Finalize no WhatsApp</h3>
+            <p class="muted">O pedido vai pronto com itens, tamanhos e cores.</p>
+          </div>
+          <div class="step">
+            <div class="step__num">3</div>
+            <h3>Receba ou retire</h3>
+            <p class="muted">Delivery ou retirada na loja em Embu das Artes.</p>
+          </div>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn--primary" id="whatsBuy" target="_blank" rel="noopener">Finalizar no WhatsApp</a>
+          <a class="btn btn--ghost" id="instaBuy" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section section--soft" id="avaliacoes">
+      <div class="container">
+        <div class="section__head">
+          <h2>Avaliações</h2>
+          <p class="muted">Clientes felizes compram de novo ❤️</p>
+        </div>
+
+        <div class="reviews-head">
+          <div class="rating">
+            <div class="rating__score">5.0</div>
+            <div class="rating__meta">
+              <div class="stars" aria-label="5 estrelas">★★★★★</div>
+              <span class="muted">com base em 13 avaliações</span>
+            </div>
+          </div>
+          <a class="btn btn--ghost" href="#local">Ver endereço e contato</a>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="review">
+            <p>“As leggings têm um caimento perfeito e o tecido é maravilhoso. Atendimento impecável!”</p>
+            <span class="muted">— Camila</span>
+          </div>
+          <div class="review">
+            <p>“Comprei conjunto e top, chegou rapidinho. Veste super bem e não fica transparente.”</p>
+            <span class="muted">— Juliana</span>
+          </div>
+          <div class="review">
+            <p>“Loja confiável e peças lindas. Vou comprar novamente com certeza!”</p>
+            <span class="muted">— Renata</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__media">
+          <img class="about-img" src="assets/p1.jpg" alt="Sheilissima Moda Fitness - Foto da loja/coleção" loading="lazy" />
+        </div>
+        <div class="about__content">
+          <h2>Sobre a Sheilissima</h2>
+          <p class="muted">
+            A <strong>Sheilissima Moda Fitness</strong> nasceu para trazer peças que unem conforto, qualidade e autoestima.
+            Aqui você encontra looks para treinar com liberdade e se sentir confiante em qualquer momento do dia.
+          </p>
+
+          <div class="about__list">
+            <div class="mini">
+              <strong>Foco em você</strong>
+              <span class="muted">Modelagens que abraçam o corpo</span>
+            </div>
+            <div class="mini">
+              <strong>Atendimento humano</strong>
+              <span class="muted">Ajudamos você a escolher o tamanho ideal</span>
+            </div>
+            <div class="mini">
+              <strong>Compra fácil</strong>
+              <span class="muted">Carrinho + finalização no WhatsApp</span>
+            </div>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn btn--primary" href="#produtos">Comprar agora</a>
+            <a class="btn btn--ghost" id="whatsAbout" target="_blank" rel="noopener">Tirar dúvidas no WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location / Contact -->
+    <section class="section section--soft" id="local">
+      <div class="container contact">
+        <div class="contact__left">
+          <h2>Contato & Localização</h2>
+          <p class="muted">Visite a loja ou peça pelo WhatsApp. Estamos prontos pra te atender.</p>
+
+          <div class="contact__cards">
+            <div class="info">
+              <strong>Endereço</strong>
+              <span class="muted">Estr. Kizaemon Takeuti, 218 - Jardim Castilho, Embu das Artes - SP, 06810-000</span>
+            </div>
+            <div class="info">
+              <strong>WhatsApp</strong>
+              <span class="muted">+55 11 96773-6005</span>
+            </div>
+            <div class="info">
+              <strong>Horário</strong>
+              <span class="muted">Aberto hoje até 19h</span>
+            </div>
+          </div>
+
+          <div class="cta-row">
+            <a class="btn btn--primary" id="whatsContact" target="_blank" rel="noopener">Falar no WhatsApp</a>
+            <a class="btn btn--ghost" id="callBtn" href="tel:+5511967736005">Ligar</a>
+            <a class="btn btn--ghost" id="instaContact" target="_blank" rel="noopener">Instagram</a>
+          </div>
+
+          <form class="form" id="contactForm">
+            <h3>Mensagem rápida</h3>
+            <div class="form__row">
+              <input type="text" id="name" placeholder="Seu nome" required />
+              <input type="text" id="phone" placeholder="Seu WhatsApp (opcional)" />
+            </div>
+            <textarea id="message" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+            <button class="btn btn--primary" type="submit">Enviar pelo WhatsApp</button>
+            <p class="muted small">Ao enviar, abriremos uma conversa no WhatsApp com sua mensagem pronta.</p>
+          </form>
+        </div>
+
+        <div class="contact__right">
+          <div class="map">
+            <!-- Você pode trocar esse iframe depois pelo embed real do Google Maps -->
+            <div class="img-placeholder">
+              <span>🗺️ Coloque aqui o mapa (embed do Google Maps)</span>
+              <small>Por enquanto é um placeholder</small>
+            </div>
+          </div>
+
+          <div class="ig">
+            <div class="ig__head">
+              <h3>Instagram</h3>
+              <span class="muted">Veja looks reais e novidades</span>
+            </div>
+
+            <div class="ig__grid">
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p1.jpg" alt="Instagram 1" loading="lazy">
+              </a>
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p2.jpg" alt="Instagram 2" loading="lazy">
+              </a>
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p3.jpg" alt="Instagram 3" loading="lazy">
+              </a>
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p4.jpg" alt="Instagram 4" loading="lazy">
+              </a>
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p5.jpg" alt="Instagram 5" loading="lazy">
+              </a>
+              <a class="ig__tile ig__tile--img" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+                <img src="assets/p6.jpg" alt="Instagram 6" loading="lazy">
+              </a>
+            </div>
+
+            <a class="btn btn--ghost" href="https://www.instagram.com/sheilissima_fit/?hl=en" target="_blank" rel="noopener">
+              Ver mais no Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Cart Drawer -->
+  <aside class="drawer" id="cartDrawer" aria-hidden="true">
+    <div class="drawer__overlay" id="closeCartOverlay"></div>
+    <div class="drawer__panel" role="dialog" aria-label="Carrinho">
+      <div class="drawer__head">
+        <h3>Seu carrinho</h3>
+        <button class="icon-btn" id="closeCart" aria-label="Fechar carrinho">✕</button>
+      </div>
+
+      <div class="drawer__body">
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-summary">
+          <div class="row">
+            <span class="muted">Subtotal</span>
+            <strong id="cartSubtotal">R$ 0,00</strong>
+          </div>
+
+          <div class="row">
+            <span class="muted">Entrega</span>
+            <select id="deliverySelect" class="select">
+              <option value="pickup">Retirada na loja (R$ 0)</option>
+              <option value="delivery">Delivery (combinar)</option>
+            </select>
+          </div>
+
+          <div class="row total">
+            <span>Total</span>
+            <strong id="cartTotal">R$ 0,00</strong>
+          </div>
+
+          <button class="btn btn--primary w-100" id="checkoutWhats">
+            Finalizar pedido no WhatsApp
+          </button>
+
+          <button class="btn btn--ghost w-100" id="clearCart">
+            Limpar carrinho
+          </button>
+
+          <p class="muted small">
+            Ao finalizar, você envia o pedido automaticamente pelo WhatsApp para confirmar pagamento e entrega/retirada.
+          </p>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky mobile bar -->
+  <div class="stickybar">
+    <button class="stickybar__btn" id="stickyCart">🛒 Carrinho (<span id="cartCount2">0</span>)</button>
+    <a class="stickybar__btn stickybar__btn--primary" id="stickyWhats" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
